@@ -1,0 +1,88 @@
+
+
+html {
+    font-size: 10px; /* px means 'pixels': the base font size is now 10 pixels high  */
+    font-family: 'Open Sans', sans-serif; /* this should be the rest of the output you got from Google fonts */
+    background-color: #0a2342;
+  }
+  h1 {
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    color: #00539F;
+    text-shadow: 3px 3px 1px black;
+    text-transform: capitalize;
+
+  }
+  h2 {
+    font-size:30px;
+    text-align: center;
+    text-transform: capitalize;
+
+  }
+
+  h3 {
+      font-size:30px;
+    text-align: center;
+    text-transform: capitalize;
+  }
+
+
+
+  figure {font-size: 25px;
+  text-align: center;
+   color:#0a2342}
+
+   
+  p, li ,a{
+    font-size: 16px;    
+    line-height: 2;
+    letter-spacing: 1px;
+    text-decoration: none;
+  
+  }
+  li , :hover {
+    /*color: blue;*/
+    animation-name: color;
+    animation-duration: 1000ms;
+    animation-fill-mode: forwards;
+   
+  }
+  @keyframes color {
+    100% {color: red}
+  }
+  
+
+
+  img , button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+  button {
+    background-color: #00539F;
+    color: #b0b7bd;
+  }
+  
+  
+  body {
+    width: 700px;
+    margin: 0 auto;
+    background-color: #b0b7bd;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+  }
+  .image_border { 
+      object-fit: cover;
+      width: 400px;
+      height: 400px;
+      padding: 10px;
+      border-radius: 25% ;
+      border: 15px solid #c81f32;
+
+
+      display: block;
+     margin: 0 auto;
+  }
+  
