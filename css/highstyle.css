@@ -1,0 +1,70 @@
+/*div {
+    background-color: blue
+    
+}*/
+.active {
+    font-weight:bold;
+}
+
+h1 {color: white;
+    margin: 25px;
+    display:inline-block;
+}
+
+h2  {color: white;
+    display:inline-block;
+    font-weight: 100;
+    margin-left:30px;
+ }
+h3 {color: rgb(54, 48, 48);
+
+}
+
+h4 {color: #7373b7;}
+
+p {color: rgb(54, 48, 48);
+font-size:14px;
+display:inline-block;}
+.banner {background-color:rgb(106, 149, 228);;
+    
+
+    height: 100px;
+    
+
+
+
+}
+a {text-decoration: none;
+    color:whitesmoke;
+
+}
+
+.Curses {background-color: gray;
+margin:15px;}
+
+.hellos {margin:20px}
+
+.likes {
+    
+    background-color: #E69641;}
+
+h5 {background-color:#E69641;
+    display:inline-block;
+    padding: 0px 0px 0px 0px;
+    width: auto;
+    }
+.boxes {
+    text-align: center;
+    
+    width:200px;
+    height:200px;
+    background-color:#DDDEE0;
+    margin:20px;
+    display:inline-block;
+}
+.center-box {
+    padding-top: 60;
+    font-size:30;
+    
+
+}
